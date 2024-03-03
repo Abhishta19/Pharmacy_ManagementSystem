@@ -1,0 +1,10 @@
+// if ($query_run) {
+          /*  if (mysqli_num_rows($query_run) > 0) {
+                echo '<script type="text/javascript"> alert("User name already exists") </script>';
+            } else {
+                // Proceed with the insertion
+            }
+        } else {
+            // Display or log the MySQL error
+            echo "Error: " . mysqli_error($con);
+        }*/
