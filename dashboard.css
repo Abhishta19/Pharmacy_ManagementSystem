@@ -1,0 +1,82 @@
+h1{
+    font-size: 70px;
+    color: lightgoldenrodyellow;
+}
+.add{
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 13px;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.profile{
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 13px;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.logout{
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 13px;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.update{
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 13px;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.logout{
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 13px;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.exit{
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 13px;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.view{
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px;
+    padding: 13px;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+a{
+text-decoration: underline;
+color: black;
+}
+h2{
+text-align: center;
+}
+body{
+    background-color: gray;
+}
+img{
+    margin: auto;
+    width: 100px;
+    display: block;
+}

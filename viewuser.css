@@ -1,0 +1,19 @@
+body{
+  background-color: lightblue ;
+}
+table,th,td{
+   border-style:solid;
+    padding: 5px;
+    margin:10px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-width:2px;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;;
+}

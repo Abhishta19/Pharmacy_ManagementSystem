@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <style>
+        h1{
+            font-size: 70px;
+        }
+        .set1{
+            width: 45%;
+            display: inline-block;
+            padding: 23px;
+            text-align: center;
+        }
+        .set2{
+            width:48%;
+            display: inline-block; 
+            padding: 20px; 
+            text-align: center;
+        }
+        .set3{
+            text-align: center;
+        }
+        select{
+            width: 250px;
+        }
+        .save{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Add User</center></h1>
+    <form action="adduser">
+        <div class="set1">
+        <h2>User Role:</h2>
+        <select name="role" id="role">
+            <option value="pharmacist">Pharmacist</option>
+            <option value="Admin">Admin</option>
+        </select>
+        <h2>Name:</h2>
+        <input type="text" placeholder="Enter user name" size=40>
+        <h2>Mobile Number:</h2>
+        <input type="text" name="mob" placeholder="Enter user number" maxlength="10" size=40>
+        <h2>Date of Birth:</h2>
+        <input type="date">
+    </div>
+    <div class="set2">
+        <h2>E-mail:</h2>
+        <input type="email" size=40 placeholder="Enter user email-id">
+        <h2>Password:</h2>
+        <input type="password" size=40 placeholder="Enter password">
+        <h2>Address:</h2>
+        <input type="text" size=40 placeholder="Enter user address">
+        <h2>Gender:</h2>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        </div>
+        <div class="set3">
+        <h2 class="save">Save</h2>
+        <button>Save</button>
+    </div>
+    </form>
+</body>
+</html>
